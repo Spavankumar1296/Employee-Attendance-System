@@ -13,12 +13,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin: [
-        'https://employee-attendance-system-ten.vercel.app',
-        'https://employee-attendance-system-4s1p2r48u.vercel.app',
-        'https://employee-attendance-system-8yox.vercel.app',
-        'http://localhost:5173'
-    ],
+    origin: true, // Allow any origin
     credentials: true
 }));
 app.use(helmet());
