@@ -16,6 +16,7 @@ app.use(cors({
     origin: [
         'https://employee-attendance-system-ten.vercel.app',
         'https://employee-attendance-system-4s1p2r48u.vercel.app',
+        'https://employee-attendance-system-8yox.vercel.app',
         'http://localhost:5173'
     ],
     credentials: true
