@@ -32,26 +32,21 @@ A web platform to manage employee attendance, track work hours, and generate rep
 
 ### Installation
 
-1.  **Clone the repository:**
-    (If you haven't already)
-    ```bash
-    git clone <repository-url>
-    cd Employee_Att_sys
-    ```
 
-2.  **Install backend dependencies:**
+
+1.  **Install backend dependencies:**
     ```bash
     cd backend
     npm install
     ```
 
-3.  **Install frontend dependencies:**
+2.  **Install frontend dependencies:**
     ```bash
     cd ../frontend
     npm install
     ```
 
-4.  **Set up environment variables:**
+3.  **Set up environment variables:**
 
     Create a `.env` file in the `backend` folder with the following credentials:
     ```env
@@ -61,26 +56,26 @@ A web platform to manage employee attendance, track work hours, and generate rep
     NODE_ENV=development
     ```
 
-5.  **Seed the Database:**
+4.  **Seed the Database:**
     Populate the database with initial data (Manager and Employee accounts).
     ```bash
     cd backend
     npm run seed
     ```
 
-6.  **Start the backend server:**
+5.  **Start the backend server:**
     ```bash
-    npm run dev
+    npm start
     ```
 
-7.  **Start the frontend:**
+6.  **Start the frontend:**
     Open a new terminal:
     ```bash
     cd frontend
     npm run dev
     ```
 
-8.  **Access the application:**
+7.  **Access the application:**
     Open your browser and go to `http://localhost:5173`.
 
 ## Folder Structure
