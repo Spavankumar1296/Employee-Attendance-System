@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const getBaseUrl = () => {
-    let url = import.meta.env.VITE_API_URL || 'https://employee-attendance-system-lqz1.onrender.com/api';
+    let url = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
     if (!url.endsWith('/api')) {
         url += '/api';
     }
